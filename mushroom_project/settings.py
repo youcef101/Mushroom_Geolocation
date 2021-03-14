@@ -34,9 +34,13 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
+    
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'mushroom_app',
+    'rest_framework',
+    
 ]
 
 MIDDLEWARE = [
@@ -118,3 +122,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+GOOGLE_MAPS_API_KEY ='AIzaSyAnpJ9tO2IYd5J4bSPDCElnRzuPLfQZ3Bc'
